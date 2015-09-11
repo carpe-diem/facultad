@@ -5,7 +5,7 @@ from listaenlazada import ListaConPyLista
 from cola import Cola
 
 
-class Testcola(unittest.TestCase):
+class TestCola(unittest.TestCase):
 
     def setUp(self):
         self.cola = Cola()

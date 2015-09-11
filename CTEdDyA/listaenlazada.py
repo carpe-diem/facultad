@@ -42,7 +42,7 @@ class Recorredor(object):
     def proximo(self):
         """ Avanza al próximo elemento de la lista."""
 
-        if self._actual == self._lista.getTamanio() - 1:
+        if self._actual == self._lista.getTamanio():
             raise StopIteration("No hay más elementos en la lista")
 
         self._actual += 1
@@ -52,7 +52,7 @@ class Recorredor(object):
         Returns:
             bool: True si llefo al final y False si no llego.
         """
-        if self._actual == self._lista.getTamanio() - 1:
+        if self._actual == self._lista.getTamanio():
             return True
         else:
             return False
