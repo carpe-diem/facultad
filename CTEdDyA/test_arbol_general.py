@@ -111,14 +111,6 @@ class TestArbolGeneral(unittest.TestCase):
         self.ag6 = ArbolGeneral()
         self.ag7 = ArbolGeneral()
 
-        #self.ag1._ArbolGeneral__raiz = self.ng1
-        #self.ag2._ArbolGeneral__raiz = self.ng2
-        #self.ag3._ArbolGeneral__raiz = self.ng3
-        #self.ag4._ArbolGeneral__raiz = self.ng4
-        #self.ag5._ArbolGeneral__raiz = self.ng5
-        #self.ag6._ArbolGeneral__raiz = self.ng6
-        #self.ag7._ArbolGeneral__raiz = self.ng7
-
         self.l3.agregar(self.ng6, 0)
         self.l3.agregar(self.ng7, 1)
         self.ng3._NodoGeneral__listaHijos = self.l3
@@ -152,10 +144,7 @@ class TestArbolGeneral(unittest.TestCase):
         self.assertEqual(1, self.arbol_general.getDatoRaiz())
 
     def test_get_hijos(self):
-        self.assertEqual(2,
-            self.arbol_general.getHijos().elemento(0)._ArbolGeneral__raiz)
-        self.assertEqual(3,
-            self.arbol_general.getHijos().elemento(1)._ArbolGeneral__raiz)
+        self.assertEqual(str(self.l1), str(self.arbol_general.getHijos()))
 
     def test_agregar_hijo(self):
         ng_nuevo = NodoGeneral()
@@ -165,25 +154,22 @@ class TestArbolGeneral(unittest.TestCase):
 
         self.arbol_general.agregarHijo(ng_nuevo)
 
-        self.assertEqual(2,
-            self.arbol_general.getHijos().elemento(0)._ArbolGeneral__raiz)
-        self.assertEqual(3,
-            self.arbol_general.getHijos().elemento(1)._ArbolGeneral__raiz)
-        self.assertEqual(8,
-            self.arbol_general.getHijos().elemento(2)._ArbolGeneral__raiz)
+        self.l1.agregar(ng_nuevo, 2)
+        self.assertEqual(str(self.l1), str(self.arbol_general.getHijos()))
+
 
     def test_eliminar_hijo(self):
         self.arbol_general.eliminarHijo(self.ng2)
 
-        self.assertEqual(3,
-            self.arbol_general.getHijos().elemento(0)._ArbolGeneral__raiz)
+        lista = ListaConPyLista()
+        lista.agregar(self.ng3, 0)
 
+        self.assertEqual(str(lista), str(self.arbol_general.getHijos()))
         self.arbol_general.eliminarHijo(self.ng3)
 
         # No hay mas hijos
         self.assertRaises(StopIteration,
             self.arbol_general.eliminarHijo, self.ng3)
-
 
 
 if __name__ == '__main__':

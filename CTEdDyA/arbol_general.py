@@ -55,7 +55,7 @@ class ArbolGeneral(object):
         rec_hijos.comenzar()
 
         while not rec_hijos.fin():
-            arbol = ArbolGeneral(rec_hijos.elemento().getDato())
+            arbol = ArbolGeneral(rec_hijos.elemento())
             lista.agregar(arbol, lista.getTamanio())
             rec_hijos.proximo()
 
