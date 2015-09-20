@@ -146,6 +146,12 @@ class TestArbolGeneral(unittest.TestCase):
     def test_get_hijos(self):
         self.assertEqual(str(self.l1), str(self.arbol_general.getHijos()))
 
+    def test_get_hijos_none(self):
+        arbol_dummy = ArbolGeneral()
+        arbol_dummy._ArbolGeneral__raiz = self.ng7
+
+        self.assertEqual(str(ListaConPyLista()), str(arbol_dummy.getHijos()))
+
     def test_agregar_hijo(self):
         ng_nuevo = NodoGeneral()
         l_nuevo = ListaConPyLista()
@@ -156,7 +162,6 @@ class TestArbolGeneral(unittest.TestCase):
 
         self.l1.agregar(ng_nuevo, 2)
         self.assertEqual(str(self.l1), str(self.arbol_general.getHijos()))
-
 
     def test_eliminar_hijo(self):
         self.arbol_general.eliminarHijo(self.ng2)
@@ -170,6 +175,51 @@ class TestArbolGeneral(unittest.TestCase):
         # No hay mas hijos
         self.assertRaises(StopIteration,
             self.arbol_general.eliminarHijo, self.ng3)
+
+    def test_altura_sin_datos(self):
+        arbol_dummy = ArbolGeneral()
+        self.assertEqual(-1, arbol_dummy.altura())
+
+    def test_altura_cero(self):
+        arbol_dummy = ArbolGeneral()
+        arbol_dummy._ArbolGeneral__raiz = self.ng7
+
+        self.assertEqual(0, arbol_dummy.altura())
+
+    def test_altura_mayor_0(self):
+        arbol_dummy2 = ArbolGeneral()
+        arbol_dummy2._ArbolGeneral__raiz = self.ng2
+        self.assertEqual(1, arbol_dummy2.altura())
+
+        arbol_dummy3 = ArbolGeneral()
+        arbol_dummy3._ArbolGeneral__raiz = self.ng2
+        self.assertEqual(1, arbol_dummy3.altura())
+
+        self.assertEqual(2, self.arbol_general.altura())
+
+    def test_nivel_sin_datos(self):
+        arbol_dummy = ArbolGeneral()
+        self.assertEqual(-1, arbol_dummy.nivel(self.ng1))
+
+    def test_nivel_dato_no_existe(self):
+        ng_nuevo = NodoGeneral()
+        l_nuevo = ListaConPyLista()
+        ng_nuevo._NodoGeneral__listaHijos = l_nuevo
+        ng_nuevo._NodoGeneral__dato = 8
+
+        self.assertEqual(-1, self.arbol_general.nivel(ng_nuevo))
+
+    def test_nivel_cero(self):
+        self.assertEqual(0, self.arbol_general.nivel(self.ng1))
+
+    def test_nivel(self):
+        self.assertEqual(1, self.arbol_general.nivel(self.ng2))
+        self.assertEqual(1, self.arbol_general.nivel(self.ng3))
+        self.assertEqual(2, self.arbol_general.nivel(self.ng4))
+        self.assertEqual(2, self.arbol_general.nivel(self.ng5))
+        self.assertEqual(2, self.arbol_general.nivel(self.ng6))
+        self.assertEqual(2, self.arbol_general.nivel(self.ng7))
+
 
 
 if __name__ == '__main__':
