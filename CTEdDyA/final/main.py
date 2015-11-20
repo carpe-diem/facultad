@@ -62,7 +62,7 @@ def main():
                 grafo.conectar(grafo.vertice(x), grafo.vertice(y), peso)
 
     recorrido = Recorridos()
-    #recorrido.camino_minimo(grafo, v1)
+    recorrido.camino_minimo(grafo, v1)
 
     ArbolesTRT(ciudades, trt).generar_arboles()
 
