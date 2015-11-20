@@ -7,11 +7,11 @@ class NodoGeneral(object):
 
     def __init__(self):
         self.__dato = None
+        self.__trt = 0
         self.__listaHijos = ListaConPyLista()
 
     def __str__(self):
-        return u"Nodo <{d}: {l}>".format(d=self.__dato,
-            l=self._NodoGeneral__listaHijos)
+        return u"{d} ({l})".format(d=self.__dato,l=self.__trt)
 
     def __repr__(self):
         return self.__str__()
@@ -19,8 +19,9 @@ class NodoGeneral(object):
     def getDato(self):
         return self._NodoGeneral__dato
 
-    def setDato(self, elem):
+    def setDato(self, elem, trt):
         self._NodoGeneral__dato = elem
+        self._NodoGeneral__trt = trt
 
     def getHijos(self):
         return self._NodoGeneral__listaHijos
@@ -35,7 +36,7 @@ class ArbolGeneral(object):
         self.__raiz = raiz
 
     def __str__(self):
-        return u"Arbol General {d}".format(d=self.__raiz)
+        return u"{d}".format(d=self.__raiz)
 
     def __repr__(self):
         return self.__str__()
@@ -47,7 +48,7 @@ class ArbolGeneral(object):
         self.__raiz = raiz
 
     def getDatoRaiz(self):
-        return self._ArbolGeneral__getRaiz().getDato()
+        return self._ArbolGeneral__getRaiz()#.getDato()
 
     def getHijos(self):
         rec_hijos = self._ArbolGeneral__getRaiz().getHijos().recorredor()
@@ -65,10 +66,10 @@ class ArbolGeneral(object):
         return lista
 
     def agregarHijo(self, hijo):
-        # TODO obtener la raiz de hijo
         nodo_raiz = self._ArbolGeneral__getRaiz()
         lista = nodo_raiz.getHijos()
         lista.agregar(hijo, lista.getTamanio())
+
 
     def eliminarHijo(self, hijo):
         nodo_raiz = self._ArbolGeneral__getRaiz()
@@ -110,6 +111,10 @@ class ArbolGeneral(object):
 
         return altura_max
 
+    def esHoja(self):
+        return self.__raiz.getHijos() == []
+
+
     def nivel(self, dato):
         """ Devuelve la profundidad o nivel del dato en el árbol. 
         El nivel de un nodo es la longitud del único camino de la raíz al nodo.
@@ -122,69 +127,40 @@ class ArbolGeneral(object):
         """
         if self._ArbolGeneral__getRaiz() is None:
             return -1
-        elif self._ArbolGeneral__getRaiz().getDato() == dato.getDato():
+        elif str(self._ArbolGeneral__getRaiz()) == str(dato):
             return 0
+
+
 
         rec_hijos = self.getHijos().recorredor()
         try:
             rec_hijos.comenzar()
         except StopIteration:
-            #return -1
-            pass
+            return 0
 
-        nivel = -1
-        counter = 1
-#        nivel_count = 1
-#        nivel_aux = 1
+        nivel = 1
         listo = False
-#
-#        while not rec_hijos.fin() and not listo:
-#            aux = rec_hijos.elemento().getDatoRaiz()
-#
-#            if aux != dato.getDato():
-#                nivel_aux = rec_hijos.elemento().nivel(dato) + 1
-#            else:
-#                listo = True
-#
-#            rec_hijos.proximo()
 
-
-        # Esto esta mal... terminar!
-        while not rec_hijos.fin() and listo:
-            aux = rec_hijos.elemento()
-            if aux.getDato() == dato.getDato():
-                listo = True
-            else:
+        while not rec_hijos.fin():
+            if rec_hijos.elemento().incluye(dato):
                 nivel = rec_hijos.elemento().nivel(dato) + 1
 
             rec_hijos.proximo()
 
-
         return nivel
 
-    def ancho(self):
-        """ La amplitud (ancho) de un árbol se define como la
-        cantidad de nodos que se encuentran en el nivel que posee
-        la mayor cantidad de nodos.
+    def incluye(self, dato):
+        if str(self._ArbolGeneral__getRaiz()) == str(dato):
+            return True
 
-        Returns:
-            int: amplitud de un arbol.
-        """
-        pass
+        aux = False
+        try:
+            rec_hijos = self.getHijos().recorredor()
+            rec_hijos.comenzar()
+            while not rec_hijos.fin() and not aux:
+                aux = rec_hijos.elemento().incluye(dato)
+                rec_hijos.proximo()
+        except:
+            pass
 
-    def esAncestro(self, dato1, dato2):
-        """ Determina si dato1 es ancestro de dato2.
-
-        Args:
-            dato1 (Object): dato
-            dato2 (Object): dato
-
-        Returns:
-            bool: True si es ancestro, False si no lo es.
-        """
-        pass
-
-
-
-
-
+        return aux

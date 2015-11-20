@@ -1,0 +1,23 @@
+Salta,5000000,MEDIO,False
+Mendoza,10000000,ALTO,True
+Viedma,500000,MEDIO,False
+Santa Fe,7500000,MEDIO,False
+Corrientes,5000000,ALTO,True
+Buenos Aires,15000000,ALTO,True
+Cordoba,10000000,ALTO,False
+Neuquen,5000000,BAJO,True
+Santa Rosa,5000000,BAJO,False
+Jujuy,500000,ALTO,True
+Posadas,500000,ALTO,True
+Tucuman,5000000,BAJO,False
+Catamarca,5000000,MEDIO,True
+La Rioja,5000000,MEDIO,False
+Sgo. del Est.,5000000,ALTO,False
+San Luis,10000000,MEDIO,False
+Formosa,500000,ALTO,True
+Resistencia,500000,MEDIO,False
+San Juan,500000,MEDIO,True
+Parana,500000,MEDIO,False
+Rawson,500000,BAJO,False
+Ushuaia,500000,BAJO,True
+Rio Gallegos,500000,BAJO,False
