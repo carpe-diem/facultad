@@ -55,7 +55,8 @@ class ArbolesTRT(object):
             nodo_raiz = NodoGeneral()
             nodo_raiz.setDato(self.ciudades[ciudad[0]].get('nombre'), 0)
             arbol = ArbolGeneral(nodo_raiz)
-            lista[0] = True
+            #lista[0] = True
+            lista[ciudad[0]] = True
             self.__arbol(arbol, ciudad[0], lista)
 
             self.imprimir(arbol)
