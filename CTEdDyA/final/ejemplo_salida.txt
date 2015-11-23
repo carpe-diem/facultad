@@ -1,0 +1,466 @@
+
+Origen: Buenos Aires
+-------- Camino Min. TRT a Tucuman
+Catamarca
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Tucuman
+
+-------- Camino Min. TRT a La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a La Rioja
+
+-------- Camino Min. TRT a Santa Rosa
+Neuquen
+Mendoza
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Santa Rosa
+
+-------- Camino Min. TRT a Parana
+-------- Fin del camino Min. a Parana
+
+-------- Camino Min. TRT a Resistencia
+Santa Fe
+Parana
+-------- Fin del camino Min. a Resistencia
+
+-------- Camino Min. TRT a Parana
+-------- Fin del camino Min. a Parana
+
+-------- Camino Min. TRT a Santa Fe
+Parana
+-------- Fin del camino Min. a Santa Fe
+
+-------- Camino Min. TRT a Mendoza
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Mendoza
+
+-------- Camino Min. TRT a Neuquen
+Mendoza
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Neuquen
+
+-------- Camino Min. TRT a Tucuman
+Catamarca
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Tucuman
+
+-------- Camino Min. TRT a Corrientes
+Resistencia
+Santa Fe
+Parana
+-------- Fin del camino Min. a Corrientes
+
+-------- Camino Min. TRT a Catamarca
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Catamarca
+
+-------- Camino Min. TRT a La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a La Rioja
+
+-------- Camino Min. TRT a Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Cordoba
+
+-------- Camino Min. TRT a Tucuman
+Catamarca
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Tucuman
+
+-------- Camino Min. TRT a Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Cordoba
+
+-------- Camino Min. TRT a Jujuy
+Tucuman
+Catamarca
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Jujuy
+
+-------- Camino Min. TRT a Santa Fe
+Parana
+-------- Fin del camino Min. a Santa Fe
+
+-------- Camino Min. TRT a La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a La Rioja
+
+-------- Camino Min. TRT a Buenos Aires
+Parana
+-------- Fin del camino Min. a Buenos Aires
+
+-------- Camino Min. TRT a Viedma
+Santa Rosa
+Neuquen
+Mendoza
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Viedma
+
+-------- Camino Min. TRT a Rio Gallegos
+Rawson
+Viedma
+Santa Rosa
+Neuquen
+Mendoza
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Rio Gallegos
+
+-------- Camino Min. TRT a Rawson
+Viedma
+Santa Rosa
+Neuquen
+Mendoza
+La Rioja
+Cordoba
+Santa Fe
+Parana
+-------- Fin del camino Min. a Rawson
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Salta (0)
+nivel 1: Jujuy (6), Tucuman (1)
+nivel 2: Formosa (3), Catamarca (7), Sgo. del Est. (4)
+nivel 3: La Rioja (3)
+nivel 4: Mendoza (1), Cordoba (1), San Luis (2), San Juan (6)
+nivel 5: Neuquen (1), Santa Fe (4)
+nivel 6: Santa Rosa (2), Resistencia (2), Parana (5)
+nivel 7: Viedma (3), Corrientes (6), Buenos Aires (8)
+nivel 8: Rawson (2), Posadas (5)
+nivel 9: Rio Gallegos (1)
+nivel 10: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Mendoza (0)
+nivel 1: Neuquen (1), La Rioja (1), San Juan (2)
+nivel 2: Santa Rosa (2), Catamarca (3)
+nivel 3: Viedma (3), San Luis (5), Tucuman (7)
+nivel 4: Rawson (2), Cordoba (3), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 5: Rio Gallegos (1), Santa Fe (4), Formosa (3)
+nivel 6: Ushuaia (5), Resistencia (2), Parana (5)
+nivel 7: Corrientes (6), Buenos Aires (8)
+nivel 8: Posadas (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Viedma (0)
+nivel 1: Santa Rosa (3), Rawson (2)
+nivel 2: Neuquen (2), San Luis (5), Rio Gallegos (1)
+nivel 3: Mendoza (1), Ushuaia (5)
+nivel 4: La Rioja (1), San Juan (2)
+nivel 5: Cordoba (1), Catamarca (3)
+nivel 6: Santa Fe (4), Tucuman (7)
+nivel 7: Resistencia (2), Parana (5), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 8: Corrientes (6), Buenos Aires (8), Formosa (3)
+nivel 9: Posadas (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Santa Fe (0)
+nivel 1: Cordoba (4), Resistencia (2), Parana (5)
+nivel 2: La Rioja (1), San Luis (3), Corrientes (6), Buenos Aires (8)
+nivel 3: Mendoza (1), Catamarca (3), San Juan (6), Posadas (5)
+nivel 4: Neuquen (1), Tucuman (7)
+nivel 5: Santa Rosa (2), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 6: Viedma (3), Formosa (3)
+nivel 7: Rawson (2)
+nivel 8: Rio Gallegos (1)
+nivel 9: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Corrientes (0)
+nivel 1: Posadas (5), Resistencia (6)
+nivel 2: Santa Fe (2)
+nivel 3: Cordoba (4), Parana (5)
+nivel 4: La Rioja (1), San Luis (3), Buenos Aires (8)
+nivel 5: Mendoza (1), Catamarca (3), San Juan (6)
+nivel 6: Neuquen (1), Tucuman (7)
+nivel 7: Santa Rosa (2), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 8: Viedma (3), Formosa (3)
+nivel 9: Rawson (2)
+nivel 10: Rio Gallegos (1)
+nivel 11: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Buenos Aires (0)
+nivel 1: Parana (8)
+nivel 2: Santa Fe (5)
+nivel 3: Cordoba (4), Resistencia (2)
+nivel 4: La Rioja (1), San Luis (3), Corrientes (6)
+nivel 5: Mendoza (1), Catamarca (3), San Juan (6), Posadas (5)
+nivel 6: Neuquen (1), Tucuman (7)
+nivel 7: Santa Rosa (2), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 8: Viedma (3), Formosa (3)
+nivel 9: Rawson (2)
+nivel 10: Rio Gallegos (1)
+nivel 11: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Cordoba (0)
+nivel 1: Santa Fe (4), La Rioja (1), San Luis (3)
+nivel 2: Resistencia (2), Parana (5), Mendoza (1), Catamarca (3), San Juan (6)
+nivel 3: Corrientes (6), Buenos Aires (8), Neuquen (1), Tucuman (7)
+nivel 4: Posadas (5), Santa Rosa (2), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 5: Viedma (3), Formosa (3)
+nivel 6: Rawson (2)
+nivel 7: Rio Gallegos (1)
+nivel 8: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Neuquen (0)
+nivel 1: Mendoza (1), Santa Rosa (2)
+nivel 2: La Rioja (1), San Juan (2), Viedma (3)
+nivel 3: Cordoba (1), Catamarca (3), San Luis (2), Rawson (2)
+nivel 4: Santa Fe (4), Tucuman (7), Rio Gallegos (1)
+nivel 5: Resistencia (2), Parana (5), Salta (1), Jujuy (5), Sgo. del Est. (4), Ushuaia (5)
+nivel 6: Corrientes (6), Buenos Aires (8), Formosa (3)
+nivel 7: Posadas (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Santa Rosa (0)
+nivel 1: Viedma (3), Neuquen (2), San Luis (5)
+nivel 2: Rawson (2), Mendoza (1)
+nivel 3: Rio Gallegos (1), La Rioja (1), San Juan (2)
+nivel 4: Ushuaia (5), Cordoba (1), Catamarca (3)
+nivel 5: Santa Fe (4), Tucuman (7)
+nivel 6: Resistencia (2), Parana (5), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 7: Corrientes (6), Buenos Aires (8), Formosa (3)
+nivel 8: Posadas (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Jujuy (0)
+nivel 1: Salta (6), Tucuman (5), Formosa (3)
+nivel 2: Catamarca (7), Sgo. del Est. (4)
+nivel 3: La Rioja (3)
+nivel 4: Mendoza (1), Cordoba (1), San Luis (2), San Juan (6)
+nivel 5: Neuquen (1), Santa Fe (4)
+nivel 6: Santa Rosa (2), Resistencia (2), Parana (5)
+nivel 7: Viedma (3), Corrientes (6), Buenos Aires (8)
+nivel 8: Rawson (2), Posadas (5)
+nivel 9: Rio Gallegos (1)
+nivel 10: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Posadas (0)
+nivel 1: Corrientes (5)
+nivel 2: Resistencia (6)
+nivel 3: Santa Fe (2)
+nivel 4: Cordoba (4), Parana (5)
+nivel 5: La Rioja (1), San Luis (3), Buenos Aires (8)
+nivel 6: Mendoza (1), Catamarca (3), San Juan (6)
+nivel 7: Neuquen (1), Tucuman (7)
+nivel 8: Santa Rosa (2), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 9: Viedma (3), Formosa (3)
+nivel 10: Rawson (2)
+nivel 11: Rio Gallegos (1)
+nivel 12: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Tucuman (0)
+nivel 1: Salta (1), Jujuy (5), Catamarca (7), Sgo. del Est. (4)
+nivel 2: Formosa (3), La Rioja (3)
+nivel 3: Mendoza (1), Cordoba (1), San Luis (2), San Juan (6)
+nivel 4: Neuquen (1), Santa Fe (4)
+nivel 5: Santa Rosa (2), Resistencia (2), Parana (5)
+nivel 6: Viedma (3), Corrientes (6), Buenos Aires (8)
+nivel 7: Rawson (2), Posadas (5)
+nivel 8: Rio Gallegos (1)
+nivel 9: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Catamarca (0)
+nivel 1: Tucuman (7), La Rioja (3)
+nivel 2: Salta (1), Jujuy (5), Sgo. del Est. (4), Mendoza (1), Cordoba (1), San Luis (2), San Juan (6)
+nivel 3: Formosa (3), Neuquen (1), Santa Fe (4)
+nivel 4: Santa Rosa (2), Resistencia (2), Parana (5)
+nivel 5: Viedma (3), Corrientes (6), Buenos Aires (8)
+nivel 6: Rawson (2), Posadas (5)
+nivel 7: Rio Gallegos (1)
+nivel 8: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: La Rioja (0)
+nivel 1: Mendoza (1), Cordoba (1), Catamarca (3), San Luis (2), San Juan (6)
+nivel 2: Neuquen (1), Santa Fe (4), Tucuman (7)
+nivel 3: Santa Rosa (2), Resistencia (2), Parana (5), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 4: Viedma (3), Corrientes (6), Buenos Aires (8), Formosa (3)
+nivel 5: Rawson (2), Posadas (5)
+nivel 6: Rio Gallegos (1)
+nivel 7: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Sgo. del Est. (0)
+nivel 1: Tucuman (4)
+nivel 2: Salta (1), Jujuy (5), Catamarca (7)
+nivel 3: Formosa (3), La Rioja (3)
+nivel 4: Mendoza (1), Cordoba (1), San Luis (2), San Juan (6)
+nivel 5: Neuquen (1), Santa Fe (4)
+nivel 6: Santa Rosa (2), Resistencia (2), Parana (5)
+nivel 7: Viedma (3), Corrientes (6), Buenos Aires (8)
+nivel 8: Rawson (2), Posadas (5)
+nivel 9: Rio Gallegos (1)
+nivel 10: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: San Luis (0)
+nivel 1: Cordoba (3), Santa Rosa (5), La Rioja (2)
+nivel 2: Santa Fe (4), Viedma (3), Neuquen (2)
+nivel 3: Resistencia (2), Parana (5), Rawson (2), Mendoza (1)
+nivel 4: Corrientes (6), Buenos Aires (8), Rio Gallegos (1), San Juan (2)
+nivel 5: Posadas (5), Ushuaia (5), Catamarca (4)
+nivel 6: Tucuman (7)
+nivel 7: Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 8: Formosa (3)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Formosa (0)
+nivel 1: Jujuy (3)
+nivel 2: Salta (6), Tucuman (5)
+nivel 3: Catamarca (7), Sgo. del Est. (4)
+nivel 4: La Rioja (3)
+nivel 5: Mendoza (1), Cordoba (1), San Luis (2), San Juan (6)
+nivel 6: Neuquen (1), Santa Fe (4)
+nivel 7: Santa Rosa (2), Resistencia (2), Parana (5)
+nivel 8: Viedma (3), Corrientes (6), Buenos Aires (8)
+nivel 9: Rawson (2), Posadas (5)
+nivel 10: Rio Gallegos (1)
+nivel 11: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Resistencia (0)
+nivel 1: Santa Fe (2), Corrientes (6)
+nivel 2: Cordoba (4), Parana (5), Posadas (5)
+nivel 3: La Rioja (1), San Luis (3), Buenos Aires (8)
+nivel 4: Mendoza (1), Catamarca (3), San Juan (6)
+nivel 5: Neuquen (1), Tucuman (7)
+nivel 6: Santa Rosa (2), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 7: Viedma (3), Formosa (3)
+nivel 8: Rawson (2)
+nivel 9: Rio Gallegos (1)
+nivel 10: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: San Juan (0)
+nivel 1: Mendoza (2), Catamarca (4), La Rioja (6)
+nivel 2: Neuquen (1), Tucuman (7)
+nivel 3: Santa Rosa (2), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 4: Viedma (3), San Luis (5), Formosa (3)
+nivel 5: Rawson (2), Cordoba (3)
+nivel 6: Rio Gallegos (1), Santa Fe (4)
+nivel 7: Ushuaia (5), Resistencia (2), Parana (5)
+nivel 8: Corrientes (6), Buenos Aires (8)
+nivel 9: Posadas (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Parana (0)
+nivel 1: Santa Fe (5), Buenos Aires (8)
+nivel 2: Cordoba (4), Resistencia (2)
+nivel 3: La Rioja (1), San Luis (3), Corrientes (6)
+nivel 4: Mendoza (1), Catamarca (3), San Juan (6), Posadas (5)
+nivel 5: Neuquen (1), Tucuman (7)
+nivel 6: Santa Rosa (2), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 7: Viedma (3), Formosa (3)
+nivel 8: Rawson (2)
+nivel 9: Rio Gallegos (1)
+nivel 10: Ushuaia (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Rawson (0)
+nivel 1: Viedma (2), Rio Gallegos (1)
+nivel 2: Santa Rosa (3), Ushuaia (5)
+nivel 3: Neuquen (2), San Luis (5)
+nivel 4: Mendoza (1)
+nivel 5: La Rioja (1), San Juan (2)
+nivel 6: Cordoba (1), Catamarca (3)
+nivel 7: Santa Fe (4), Tucuman (7)
+nivel 8: Resistencia (2), Parana (5), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 9: Corrientes (6), Buenos Aires (8), Formosa (3)
+nivel 10: Posadas (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Ushuaia (0)
+nivel 1: Rio Gallegos (5)
+nivel 2: Rawson (1)
+nivel 3: Viedma (2)
+nivel 4: Santa Rosa (3)
+nivel 5: Neuquen (2), San Luis (5)
+nivel 6: Mendoza (1)
+nivel 7: La Rioja (1), San Juan (2)
+nivel 8: Cordoba (1), Catamarca (3)
+nivel 9: Santa Fe (4), Tucuman (7)
+nivel 10: Resistencia (2), Parana (5), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 11: Corrientes (6), Buenos Aires (8), Formosa (3)
+nivel 12: Posadas (5)
+-------- Fin de Árbol TRT --------
+
+-------- Comienzo de Árbol TRT --------
+Raiz: Rio Gallegos (0)
+nivel 1: Rawson (1), Ushuaia (5)
+nivel 2: Viedma (2)
+nivel 3: Santa Rosa (3)
+nivel 4: Neuquen (2), San Luis (5)
+nivel 5: Mendoza (1)
+nivel 6: La Rioja (1), San Juan (2)
+nivel 7: Cordoba (1), Catamarca (3)
+nivel 8: Santa Fe (4), Tucuman (7)
+nivel 9: Resistencia (2), Parana (5), Salta (1), Jujuy (5), Sgo. del Est. (4)
+nivel 10: Corrientes (6), Buenos Aires (8), Formosa (3)
+nivel 11: Posadas (5)
+-------- Fin de Árbol TRT --------
+
